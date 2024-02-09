@@ -1,0 +1,60 @@
+
+.login {
+    display: flex;
+    justify-content: center;
+    height: 1200px;
+    align-items: center;
+    display: flex;
+    background: url("background.jpeg") no-repeat center fixed;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+input{
+    display: flex;
+    align-self:center;
+    text-align: center;
+      
+}
+
+
+.target{
+    display: flex;
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    opacity: 50%;
+    border-radius: 30px;
+    flex-direction: column;
+    
+    
+
+    
+    
+}
+.avatar{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: url("avatar.jpg") no-repeat center fixed;
+    align-self: center;
+    margin-bottom: 100px;
+    
+    
+}
+.title{
+    height: 50px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.link{
+    display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   font-size: 10px;
+
+}
