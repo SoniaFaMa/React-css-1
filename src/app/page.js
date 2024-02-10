@@ -7,14 +7,16 @@ import './styles.css'
 export default function Home() {
   return (
     <main className="login">
-     
+    
+    <div className="menu" >
+  <ul>
+    <li class="menu-item"><a href="#">HOME</a></li>
+    <li class="menu-item"><a href="#">SERVICES</a></li>
+    <li class="menu-item"><a href="#">JOIN</a></li>
+    
+  </ul>
+</div>
 
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
-     <br></br>
 
      <div className='target'>
 
@@ -29,6 +31,7 @@ export default function Home() {
       <div className='link'>
       <a href='login'>Login</a><p>|</p><a href="forgot">Forgot Password</a>
       </div>
+
 
 
      </div>
