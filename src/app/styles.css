@@ -14,16 +14,19 @@ input{
     display: flex;
     align-self:center;
     text-align: center;
+    background-color: aliceblue;
+    border-radius: 6px;
+    height: 30px;
       
 }
 
 
 .target{
     display: flex;
-    background-color: black;
+    
     height: 400px;
     width: 300px;
-    opacity: 50%;
+    background: hsla(0, 0%, 0%, 0.376);
     border-radius: 30px;
     flex-direction: column;
     
@@ -33,7 +36,7 @@ input{
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    background: url("avatar.jpg") no-repeat center fixed;
+    background-image: url(avatar.jpg);
     align-self: center;
     margin-bottom: 100px;
     
@@ -44,6 +47,7 @@ input{
     align-self: center;
     font-weight: 600;
     font-size: 30px;
+    
 
 }
 .link{
@@ -60,6 +64,8 @@ input{
     padding: 6px;
     margin: 5px;
     justify-content: right;
+    align-items: center;
+    
     
     
 }
@@ -68,7 +74,8 @@ input{
     list-style: none;
     flex-basis: auto;
     display: inline;
-    margin: 3px;
+    margin: 4px;
+   
    
 }
 
@@ -76,4 +83,15 @@ li{
     
     justify-content:right;
     font-size: 12px;
+    
+    
 }
+.avatar-menu{
+    background-image: url(avatar.jpg); 
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+
