@@ -1,7 +1,5 @@
 
 
-
-
 import './styles.css'
 
 export default function Home() {
@@ -34,17 +32,8 @@ export default function Home() {
       <a href='login'>Login</a><p>|</p><a href="forgot">Forgot Password</a>
       </div>
 
-
-
      </div>
      
-
-   
-
-
-     
-
-
       
     </main>
   );
