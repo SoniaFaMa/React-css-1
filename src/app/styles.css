@@ -6,8 +6,8 @@
     background: url("background.jpeg") no-repeat center fixed;
     background-size: cover;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
+    justify-content: space-between;
    
     
 
@@ -31,6 +31,8 @@ input{
     background: hsla(0, 0%, 0%, 0.376);
     border-radius: 30px;
     flex-direction: column;
+    margin-bottom: 150px;
+    
     
 }
 .avatar{
@@ -38,9 +40,9 @@ input{
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    background-image: url(avatar.jpg);
+    background-image: url(avatar.jpg); 
     align-self: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     
     
 }
@@ -68,7 +70,6 @@ input{
     background-color:black;
     width: 100%;
     padding: 6px;
-    margin: 5px;
     justify-content: right;
     align-items: center;
     
