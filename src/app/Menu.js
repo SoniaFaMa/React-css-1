@@ -4,8 +4,10 @@
 // Luego, donde queramos usarlo tendremos que importarlo.
 // Todo componente tiene un return
 
-
+import './menu.css'
 export default function Menu () {
+
+  
 
   return (
     <div className="menu">    

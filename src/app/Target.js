@@ -1,3 +1,7 @@
+
+
+import './Target.css'
+
 export default function Target(){
 
     return(

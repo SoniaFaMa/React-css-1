@@ -1,0 +1,21 @@
+input{
+    display: flex;
+    align-self:center;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 6px;
+    height: 30px;
+    
+      
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 10px;
+   
+
+}
+
+
