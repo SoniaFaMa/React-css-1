@@ -1,6 +1,6 @@
 
 
-import './Target.css'
+import './target.css'
 
 export default function Target(){
 
